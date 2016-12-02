@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1480623983300" createdUser="Prashanth" id="54b938cd:158bc0b1787:-7e60" type="environment_resource" updatedTimestamp="1480623983300" updatedUser="Prashanth" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig>
+      <environmentVariable evdescription="" key="xyz" value="fafa"/>
+	  <environmentVariable evdescription="" key="xyz23" value="fafa"/>
+   </resourceConfig>
+</editableResource>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1480623653872" createdUser="Prashanth" id="54b938cd:158bc0b1787:-7f3a" selfDescribing="WebServer - http localhost " type="http_transport" updatedTimestamp="1480623653872" updatedUser="Prashanth" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig transportName="WebServer" transportTemplateName="HTTP"/>
+</editableResource>

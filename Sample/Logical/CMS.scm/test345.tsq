@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1480623819409" createdUser="Prashanth" id="54b938cd:158bc0b1787:-7ea5" type="test_resource" updatedTimestamp="1480623857809" updatedUser="Prashanth" version="1.1">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig description="" name="">
+      <testTree>
+         <editableResource id="54b938cd:158bc0b1787:-7e66" selfDescribing="Respond to a previously received request message.  Select the relevant request from the drop-down and edit the content of the message to send." type="send_reply_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig description="" formatter="" name="-NO MESSAGE DEFINED--NO TRANSPORT SELECTED-">
+               <replyHeaderMessage type="12" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+               </replyHeaderMessage>
+               <replyMessage type="12" version="1.2">
+                  <fieldActionGroup>
+                     <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false" ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                     </fieldAction>
+                  </fieldActionGroup>
+               </replyMessage>
+            </resourceConfig>
+         </editableResource>
+      </testTree>
+      <tagDataStore inputMode="NONE" outputMode="NONE"/>
+      <testprops messageClearance="false"/>
+   </resourceConfig>
+</editableResource>
