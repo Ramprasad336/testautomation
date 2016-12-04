@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1480623819409" createdUser="Prashanth" id="54b938cd:158bc0b1787:-7ea5" type="test_resource" updatedTimestamp="1480866313218" updatedUser="Prashanth" version="1.1">
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1480623819409" createdUser="Prashanth" id="54b938cd:158bc0b1787:-7ea5" type="test_resource" updatedTimestamp="1480872082035" updatedUser="Prashanth" version="1.1">
    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
    <resourceConfig description="" name="">
       <testTree>
+         <editableResource id="-6905ce74:158cad9bfc4:-7eb0" selfDescribing="The SQL Command action is used for executing the Data Manipulation Language statements INSERT, UPDATE, and DELETE against the selected database connection. If desired, the number of rows affected may be validated or stored into a tag." type="sql_command_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig callableStatement="false" description="" isAutoCommit="true" name="-NO SQL STATEMENT DEFINED-" sqlStatement="" timeOffset="7200000"/>
+         </editableResource>
          <editableResource id="-16cd3d9a:158ca7337a4:-7ec3" selfDescribing="Specify commands, scripts or programs to execute, either locally or on a remote machine.  Optionally specify assertions on the output and/or store it into tags." type="run_command_action" version="1.0">
             <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
             <resourceConfig command="" description="" killAfter="Test" killProcess="false" name="-NO COMMAND DEFINED-" waitUntilComplete="true">
