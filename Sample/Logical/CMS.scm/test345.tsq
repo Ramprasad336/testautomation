@@ -1,7 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1480623819409" createdUser="Prashanth" id="54b938cd:158bc0b1787:-7ea5" type="test_resource" updatedTimestamp="1480865912292" updatedUser="Prashanth" version="1.1">
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1480623819409" createdUser="Prashanth" id="54b938cd:158bc0b1787:-7ea5" type="test_resource" updatedTimestamp="1480866313218" updatedUser="Prashanth" version="1.1">
    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
    <resourceConfig description="" name="">
       <testTree>
+         <editableResource id="-16cd3d9a:158ca7337a4:-7ec3" selfDescribing="Specify commands, scripts or programs to execute, either locally or on a remote machine.  Optionally specify assertions on the output and/or store it into tags." type="run_command_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig command="" description="" killAfter="Test" killProcess="false" name="-NO COMMAND DEFINED-" waitUntilComplete="true">
+               <remote connectionType="LOCAL" host="" password="#com.ghc.1!a281" user="" userType="TAGGED" workingDir=""/>
+               <fieldActionGroup>
+                  <fieldAction enabled="false" type="1">
+                     <fieldAction enabled="false" type="0"/>
+                  </fieldAction>
+               </fieldActionGroup>
+               <stdErrFieldActionGroup>
+                  <fieldAction enabled="false" type="1">
+                     <fieldAction enabled="false" type="0"/>
+                  </fieldAction>
+               </stdErrFieldActionGroup>
+               <exitCodeFieldActionGroup>
+                  <fieldAction enabled="false" type="1">
+                     <fieldAction enabled="false" type="0"/>
+                  </fieldAction>
+               </exitCodeFieldActionGroup>
+               <executeUser enabled="false" method="SU"/>
+            </resourceConfig>
+         </editableResource>
          <editableResource id="54b938cd:158bc0b1787:-7e66" selfDescribing="Respond to a previously received request message.  Select the relevant request from the drop-down and edit the content of the message to send." type="send_reply_action" version="1.0">
             <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
             <resourceConfig description="" formatter="" name="-NO MESSAGE DEFINED--NO TRANSPORT SELECTED-">
