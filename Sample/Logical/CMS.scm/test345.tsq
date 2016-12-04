@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1480623819409" createdUser="Prashanth" id="54b938cd:158bc0b1787:-7ea5" type="test_resource" updatedTimestamp="1480873925922" updatedUser="Prashanth" version="1.1">
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1480623819409" createdUser="Prashanth" id="54b938cd:158bc0b1787:-7ea5" type="test_resource" updatedTimestamp="1480875008672" updatedUser="Prashanth" version="1.1">
    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
    <resourceConfig description="" name="">
       <testTree>
+         <editableResource id="-5bbaca0f:158cb05458a:-7ef8" selfDescribing="The comment actions enable you to add notes." type="comment_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig description="" html="false" name=" (2)"/>
+         </editableResource>
          <editableResource id="-6905ce74:158cad9bfc4:-7eb0" selfDescribing="The SQL Command action is used for executing the Data Manipulation Language statements INSERT, UPDATE, and DELETE against the selected database connection. If desired, the number of rows affected may be validated or stored into a tag." type="sql_command_action" version="1.0">
             <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
             <resourceConfig callableStatement="false" description="" isAutoCommit="true" name="-NO SQL STATEMENT DEFINED-" sqlStatement="" timeOffset="7200000"/>
